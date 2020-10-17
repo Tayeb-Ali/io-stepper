@@ -1,0 +1,56 @@
+{
+  "name": "io-stepper",
+  "version": "1.0.0",
+  "description": "steppers components for new G Ionic",
+  "main": "dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd dev && ionic serve",
+    "clean": "rm -rf ./dist",
+    "lint": "tslint ./src/**/*.ts",
+    "copy-scss": "cpx './src/**/*.scss' './dist'",
+    "build:ts": "tsc && ngc",
+    "prebuild": "npm run clean && npm run lint",
+    "build": "npm run build:ts",
+    "postbuild": "npm run copy-scss"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tayeb-ali/io-stepper.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@angular/animations": "^10.1.4",
+    "@angular/common": "~10.0.0",
+    "@angular/compiler": "~10.0.0",
+    "@angular/compiler-cli": "~10.0.0",
+    "@angular/core": "~10.0.0",
+    "@angular/forms": "~10.0.0",
+    "@angular/platform-browser": "~10.0.0",
+    "@angular/platform-browser-dynamic": "~10.0.0",
+    "@angular/router": "~10.0.0",
+    "@ionic/angular": "^5.0.0",
+    "cpx": "^1.5.0",
+    "ionicons": "~5.1.2",
+    "rxjs": "~6.5.5",
+    "tslint": "^6.1.3",
+    "tslint-ionic-rules": "0.0.21",
+    "typescript": "^3.8.3",
+    "zone.js": "0.11.1"
+  },
+  "keywords": [
+    "ionic",
+    "ionic5",
+    "component",
+    "steppers",
+    "step",
+    "Angulare"
+  ],
+  "author": "Elteyab Hassan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tayeb-ali/io-stepper/issues"
+  },
+  "homepage": "https://github.com/tayeb-ali/io-stepper#readme"
+}
