@@ -1,19 +1,14 @@
 <p align="center">
-   <img width="800" src="https://raw.githubusercontent.com/HsuanXyz/ionic-stepper/master/screenshot.png">
+   <img width="800" src="https://raw.githubusercontent.com/tayeb-ali/io-stepper/master/screenshot.png">
 </p>
 
 # ionic-stepper
 
 Steppers components for Ionic 5^.
 
-[![Build Status][build-image]][build-image]
-[![Dependency Status][dependency-image]][dependency-url]
-[![NPM version][npm-image]][npm-url]
-[![Downloads][downloads-image]][downloads-url]
-[![MIT License][license-image]][license-url]
-
 ## Getting Started
-
+ - is just re-build ionic Stepper , upgrade all pk , re-code from Angulare2 to 10.
+ - Help me to upgrade it :) .
 ### Prerequisites
 
 - `ionic-angular: ^5.x`
@@ -92,17 +87,17 @@ export class HomePage {
 
 #### property
 
-| Name            | Type          | Default       | Description |
-| --------------- | ------------- | ------------- | ----------- |
-| [mode]          | `'horizontal', 'vertical'`    | `'vertical'`| orientation |
-| (selectIndexChange) | `EventEmitter<number>`    |             | index change event |
+| Name                | Type                       | Default      | Description        |
+|---------------------|----------------------------|--------------|--------------------|
+| [mode]              | `'horizontal', 'vertical'` | `'vertical'` | orientation        |
+| (selectIndexChange) | `EventEmitter<number>`     |              | index change event |
 
 #### method
 
-| Name            |  Description |
-| --------------- |   ----------- |
-| nextStep(): void        |  next step   |
-| previousStep(): void    |  previous step  |
+| Name                            | Description       |
+|---------------------------------|-------------------|
+| nextStep(): void                | next step         |
+| previousStep(): void            | previous step     |
 | setStep(index: number): boolean | set step by index |
 
 
@@ -110,13 +105,13 @@ export class HomePage {
 
 #### property
 
-| Name            | Type          | Default       | Description |
-| --------------- | ------------- | ------------- | ----------- |
-| [label]         | `string`      |               | step label  |
-| [description]   | `string`      |               | step description (only vertical mode is visible) |
-| [icon]          | `icon`        | `'number'`    | step icon, default display the index ([icons](https://ionicframework.com/docs/ionicons/)) |
-| [status]        | `'error', ''` | `''`          | step status |
-| [errorIcon]     | `string`      | `'close'`     | error status icon |
+| Name          | Type          | Default    | Description                                                                               |
+|---------------|---------------|------------|-------------------------------------------------------------------------------------------|
+| [label]       | `string`      |            | step label                                                                                |
+| [description] | `string`      |            | step description (only vertical mode is visible)                                          |
+| [icon]        | `icon`        | `'number'` | step icon, default display the index ([icons](https://ionicframework.com/docs/ionicons/)) |
+| [status]      | `'error', ''` | `''`       | step status                                                                               |
+| [errorIcon]   | `string`      | `'close'`  | error status icon                                                                         |
 
 ### `[ionicStepperNext]`
 
