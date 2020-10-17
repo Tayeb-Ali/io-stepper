@@ -1,5 +1,5 @@
 <p align="center">
-   <img width="800" src="https://raw.githubusercontent.com/tayeb-ali/io-stepper/master/screenshot.png">
+   <img width="800" src="https://github.com/Tayeb-Ali/io-stepper/blob/main/screenshot.png?raw=true">
 </p>
 
 # ionic-stepper
